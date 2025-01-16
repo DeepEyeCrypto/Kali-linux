@@ -27,9 +27,9 @@
 ```bash
    pkg update -y && pkg upgrade -y
    pkg install wget -y
-   wget https://raw.githubusercontent.com/sabamdarif/modded-kali/main/setup.sh
-   chmod +x setup.sh
-   bash setup.sh
+   wget https://github.com/DeepEyeCrypto/Kali-linux/raw/refs/heads/main/Kali.sh
+   chmod +x Kali.sh
+   bash Kali.sh
    kali
    bash gui.sh
 ```
